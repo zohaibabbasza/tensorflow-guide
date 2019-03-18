@@ -3,7 +3,7 @@
 Supposing u have installed the GPU drivers
 
 Download cuda toolkit 
-* Bullet once the download is complete, open a terminal in the directory the base installer is and run the follow commands
+* Bullet list * once the download is complete, open a terminal in the directory the base installer is and run the follow commands
 sudo dpkg -i cuda-repo-ubuntu1704-9-0-local_9.0.176-1_amd64.deb
 sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub (open the file with correct version) 
 sudo apt-get update
