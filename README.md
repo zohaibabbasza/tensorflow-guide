@@ -20,9 +20,13 @@ Install CUDNN
 * $ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 * $ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64
 * If the above command give error of No such directory create the folder manually by going in /usr/local 
-    *$ sudo mkdir cuda
-    *$ cd cuda
-    *$ sudo mkdir lib64
+
+    $ sudo mkdir cuda
+    
+    $ cd cuda
+    
+    $ sudo mkdir lib64
+    
 * Now the copy commands will work.
 
 Install Tensorflow
