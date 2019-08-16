@@ -14,11 +14,16 @@ Install CUDNN
 * download the cuDNN v7.0.5 Library for Linux (tar file)(whatever the current version is )
 * open a terminal in the directory the tar file is located
 * unzip the tar file using the command
-* tar -xzvf cudnn-9.0-linux-x64-v7.tgz
+* $ tar -xzvf cudnn-9.0-linux-x64-v7.tgz
 * run the following commands to move the appropriate files to the CUDA folder
-* sudo cp cuda/include/cudnn.h /usr/local/cuda/include
-* sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
-* sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64
+* $ sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+* $ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+* $ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64
+* If the above command give error of No such directory create the folder manually by going in /usr/local 
+    $ sudo mkdir cuda
+    $ cd cuda
+    $ sudo mkdir lib64
+* Now the copy commands will work.
 
 Install Tensorflow
 * pip install tensorflow-gpu
